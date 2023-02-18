@@ -4,6 +4,7 @@
 	</head>
 	<body>
 		<form method="GET" action="php_exercompute2.2.php">
+			<div style="border:1px solid black;display:inline-block;padding:10px">
 			<h1>PHP Exercise 2.2</h1>	
 			<p>Num1
             <input name="one" required /> 
@@ -16,6 +17,7 @@
             <button type="submit" name="multiply" required>Multiply</button>
             <button type="submit" name="divide" required>Divide</button>
 			<p>Result:<input value="0"> </input></p>
+</div>
 		</form>
 	</body>
 </html>

@@ -4,6 +4,7 @@
 	</head>
 	<body>
 		<form method="GET" action="php_exercompute2.1.php">
+		<div style="border:1px solid black;display:inline-block;padding:10px">
 			<h1>PHP Exercise 2.1</h1>	
 			<p>Y2
 			<input name="Y2" required /> Y1
@@ -14,7 +15,7 @@
 			 <br />
 			<button type="submit" name="btnCompute">Compute</button>
 			<p >Slope: 0</p>
-		
+		</div>
 		</form>
 	</body>
 </html>
